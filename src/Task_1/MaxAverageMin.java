@@ -3,6 +3,7 @@ package Task_1;
 import java.util.Arrays;
 
 public class MaxAverageMin {
+    
     static public void work(int sizeArray, boolean isPrintArray){
         double[] array = new double[sizeArray];
         for (int i = 0; i<sizeArray ; i++){
