@@ -1,5 +1,7 @@
 import Task_1.MaxAverageMin;
 import Task_2.DuplicateCharacter;
+import Task_3.BaseConverter;
+import Task_3.unitsOfMeasurement;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,5 +9,6 @@ public class Main {
         System.out.println();
         DuplicateCharacter.work();
         System.out.println();
+        BaseConverter.convert(100, unitsOfMeasurement.Fahrenheit);
     }
 }
